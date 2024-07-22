@@ -1,0 +1,156 @@
+
+.navbar {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100; 
+
+}
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px;
+  height: 100vh;
+  border-right: 1px solid #dee2e6;
+  position: fixed;
+}
+
+.product-bar h5,
+.price h5 {
+  color: #495057;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  margin-left: 70px;
+  object-fit: cover;
+}
+
+.product-title {
+ 
+  color: #343a40;
+  padding: 10px;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: #6c757d;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.product-category {
+  font-size: 0.9rem;
+  color: #adb5bd;
+  padding: 0 10px 10px;
+  margin: 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* editproduct data css */
+
+/* styles.css */
+.container {
+  margin-top: 50px;
+}
+
+.form-update {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-update .form-control {
+  margin-bottom: 15px;
+}
+
+.form-update .form-control.w-50 {
+  width: 100% !important;
+}
+
+.form-update .btn {
+  width: 100%;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.form-update .btn:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+/* details product  */
+.product-details-container {
+  margin-top: 20px;
+}
+
+.product-info {
+  width: 500px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 5px;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-price {
+  color: #28a745;
+  font-size: 1.5rem;
+}
+
+.product-category {
+  color: #6c757d;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.product-description {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.edit-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.edit-link:hover {
+  background-color: #0056b3;
+}
